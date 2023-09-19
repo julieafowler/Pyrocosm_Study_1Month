@@ -55,6 +55,30 @@ mgd<-merge_phyloseq(physeq,sampledata) ## make the final phyloseq object
 
 #### Alpha Diversity Boxplots ####
 
+totus=t(otus)
+alpha = as.data.frame(matrix(data = NA, nrow = 30, ncol = 15))
+row.names(alpha) = row.names(totus)
+
+alpha[,1] = diversity(totus, index = "shannon")
+alpha[,2] = diversity(totus, index = "simpson")
+alpha[,3] = diversity(totus, index = "shannon")/log(specnumber(totus)) ## This is divided by the log because vegan defined Shannon's H with log, rather than ln
+alpha[,4] = specnumber(totus)
+
+colnames(alpha) = c("Shannon", "Simpson", "Pielou", "Species_Richness")
+
+## Histogram of diversity metrics 
+## write.csv(alpha,'sample_alpha_diversity.csv') #this will save the alpha data frame as a csv to your working directory 1
+par(mfrow = c(2, 2)) ## make 2x2 environment
+## Plot 
+hist(alpha[,1], main="Shannon diversity", xlab="", breaks=10)
+hist(alpha[,2], main="Simpson diversity", xlab="", breaks=10)
+hist(alpha[,3], main="Pielou", xlab="", breaks=15)
+hist(alpha[,4], main="Richness", xlab="", breaks=15)
+
+## Adding columns to sample_tab 
+map_file$Shannon <- alpha$Shannon
+map_file$Species_Richness <- alpha$Species_Richness
+
 ## Species Richness
 
 ggplot(map_file, aes(x = Days_Since_IgnitionEvent, y = Species_Richness)) + geom_boxplot(stat = "boxplot", aes(fill=as.factor(Days_Since_IgnitionEvent)), outlier.shape = NA) +
