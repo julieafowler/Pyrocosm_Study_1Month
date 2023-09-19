@@ -24,15 +24,15 @@ theme_set("classic")
 
 #### Import Files and Create Object ####
 
-otus<-read.delim("pyro-feature-table-16S.tsv",header=T,row.names=1, check.names=FALSE) ## load in the feature table - this is your 'ASV' table with counts across samples
-map_file<-read.delim("pyro-map-file-16S.txt",header = T,row.names=1,check.names=FALSE)
+otus<-read.delim("pyro-Jacob-feature-table-16S.tsv",header=T,row.names=1, check.names=FALSE) ## load in the feature table - this is your 'ASV' table with counts across samples
+map_file<-read.delim("pyro-Jacob-map-file-16S.txt",header = T,row.names=1,check.names=FALSE)
 
 all.equal(names(otus),row.names(map_file)) ## check to make sure row names and column names equal (aka the sample names), if this reads 'TRUE' you are good to move on!
 
 otumat<-as.matrix(otus)
 OTU = otu_table(otumat, taxa_are_rows = TRUE)
 head(OTU)
-taxa<-read.delim("SFSP-taxonomy-16S.tsv",header=T,row.names=1,skipNul=T) ## this is just a list of the ASV ids and the corresponding taxa strings, reordered so that they are listed in the same order as the ASV table
+taxa<-read.delim("pyro-Jacob-taxonomy-16S.tsv",header=T,row.names=1,skipNul=T) ## this is just a list of the ASV ids and the corresponding taxa strings, reordered so that they are listed in the same order as the ASV table
 taxmat<-as.matrix(taxa)
 all.equal(row.names(taxmat),row.names(otumat)) ## check to make sure they are in the same order
 TAX = tax_table(taxmat)
