@@ -1,4 +1,4 @@
-#### Scripts for Pyrocosm Study - VanderRoest et al. - 16S Analyses ####
+######## Scripts for Pyrocosm Study - VanderRoest et al. - 16S Analyses ########
 
 ## Written and compiled by Julie A. Fowler and Amelia R. Nelson
 
@@ -14,6 +14,14 @@ library(ggpubr)
 library(skimr)
 library(tidyverse)
 library(rstatix)
+library(RColorBrewer)
+library(ggrepel)
+library(stats)
+library(pairwiseAdonis)
+library(writexl)
+
+# library(devtools)
+# install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
 
 theme_set("classic")
 
@@ -80,14 +88,11 @@ map_file %>%
 #### Connected Scatterplot of top LEfSe Burned Genera ####
 
 PivotTable_LEfSeScatter<-read.delim("16S_ScatterplotConnected_LEfSe.txt",header = T,check.names=FALSE)
-
-library(tidyverse)
 PivotTable_LEfSeScatter_Long<-pivot_longer(data = PivotTable_LEfSeScatter, 
                                      cols = starts_with("Genera_"),
                                      names_to = "Genus", 
                                      values_to = "value")
 
-library(writexl)
 write_xlsx(PivotTable_LEfSeScatter_Long,"PivotTable_LEfSeScatter_Long.xlsx")
 
 PivotTable_LEfSeScatter_Long$value <- as.numeric(PivotTable_LEfSeScatter_Long$value)
@@ -172,8 +177,6 @@ sig.env.scrs <- subset(env.scores.fit, pval<=0.05) ## add pvalues to dataframe
 #sig.env.scrs <- subset(env.scores.dune, r>=0.85) ## subset data to show variables significant at 0.05
 sig.env.scrs
 
-library(ggrepel)
-
 ## Plot with ggplot
 NMDS_Envfit_Chemistry <- NMDS +
   geom_segment(data=sig.env.scrs,aes(x=0,xend=NMDS1,y=0,yend=NMDS2),
@@ -200,7 +203,6 @@ adonis2(mgd_ge5K_relabund.bray ~ Burn_Condition+Days_Since_IgnitionEvent, data =
 
 ## Conduct p-value adjustments as needed
 ## P-value adjustments:
-library(stats)
 p = c(0.001, 0.001, 0.001)
 
 p.adjusted = p.adjust(p, method = "BH")
@@ -209,16 +211,11 @@ p.adjusted
 ## Post hoc test to tell which pairs are sig different
 ## New method that uses adonis2 (not adonis)
 
-# library(devtools)
-# install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
-
-library(pairwiseAdonis)
 pairwise.adonis2(mgd_ge5K_relabund.bray ~ Burn_Condition, data = sample_tab, sim.method = "bray", p.adjust.m = "BH", perm = 999)
 pairwise.adonis2(mgd_ge5K_relabund.bray ~ Days_Since_IgnitionEvent, data = sample_tab, sim.method = "bray", p.adjust.m = "BH", perm = 999)
 pairwise.adonis2(mgd_ge5K_relabund.bray ~ Burn_Condition*Days_Since_IgnitionEvent, data = sample_tab, sim.method = "bray", p.adjust.m = "BH", perm = 999)
 
 ## P-value adjustments:
-library(stats)
 p = c(, , , , , , , , , ,
       , )
 p.adjusted = p.adjust(p, method = "BH")
@@ -237,11 +234,7 @@ p.adjusted
 ## Excluding those phyla that represent less than 0.5% or 0.005 of all sequences in the total dataset
 
 PivotTable_Phylum<-read.delim("16S_Phylum_StackBarchart_0.005_Wide.txt",header = T,check.names=FALSE)
-
-library(tidyverse)
 PivotTable_Phylum_Long<-pivot_longer(data = PivotTable_Phylum, cols = 3:16, names_to = "Phylum", values_to = "value")
-
-library(RColorBrewer)
 
 # Classic palette BuPu, with 4 colors
 coul <- brewer.pal(12, "Paired") 
