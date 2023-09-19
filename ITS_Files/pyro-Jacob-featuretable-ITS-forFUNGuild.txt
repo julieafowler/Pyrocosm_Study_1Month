@@ -1,0 +1,549 @@
+Guild	JQ1	JQ10	JQ11	JQ12	JQ13	JQ14	JQ15	JQ2	JQ3	JQ4	JQ5	JQ6	JQ7	JQ8	JQ9	PLJ1	PLJ11	PLJ12	PLJ13	PLJ14	PLJ15	PLJ16	PLJ17	PLJ18	PLJ2	PLJ3	PLJ4	PLJ6	PLJ8	PLJ9
+Plant Pathogen	115	56	64	18	168	191	139	0	87	330	0	7	478	15	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	33	0	0	0	0	8	0	19	0	6	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	127	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	190	187	266	28	127	27	129	128	35	197	100	13	90	246	117
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	29	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0
+Endophyte	0	0	0	0	0	0	0	0	0	202	0	62	0	0	0	807	1012	1050	1062	429	712	630	702	461	600	504	820	1214	742	774
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	97	0	0	0	0	0	0	0	150	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	21	10	0	0	0	0	0	0	10	0	0	0	0	54
+Undefined Saprotroph	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	10	0	0	39	0	0	0	0	0	0	16	0	0	0	114
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	64	33	41	58	22	92	43	52	0	29	52	83	379	100	43
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0	24	13	0	0	0	0	0	0	18	0	15	20
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	13	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	4	0	0	0	8	0	6	0	0	175	66	388	424	88	18	11	132	0	258	111	220	13	8	242
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30	0	0	0	0	0	0	26	64	0	0	8
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	469	299	558	1221	67	18	22	253	0	284	963	1772	235	6	1823
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	3	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	4	17	0	24	0	0	0	0	29	0	10	0	2
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	38	56	56	2	18	0	0	15	0	34	73	10	218	2	27
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	105	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	4	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	8	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	35	11	17	0	0	0	0	16	0	10	0	0	0	36	4
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	44	0	0	0	0	0	0	37	35	0	0	500
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	33	38	21	25	24	9	25	21	8	31	15	29	48	31	11
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	362	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	0	162	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Fungal Parasite	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	348	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	27	0	21	0	0	0	0	22	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	23	0	0	0	11	0	0	15	39	0	0	7
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	162	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	7	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	23	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Litter Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	35	0	0	0	0	0	0	39	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	58	0	0	0	0	0
+Ectomycorrhizal	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	64	92	358	61	48	0	0	24	0	81	15	51	0	0	1142
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	0	5	0	0	0	0	0	0	0	10	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	166	0	0	0	0	0	0	86	69	0	0	87
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	6	10	0	0	0	0	0	0	23	0	0	0	0	0	20	0	0	0	0	0	0	23	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	95	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	101	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	4	0	0	0	0	0	4	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	2	0	2	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	385	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	12	0	0	0	0	0	0	6	0	0	0	0	3
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	3	0	7	0	0	0	0	0	0	0	0	0	0
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	554	0	0	0	4	3
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0
+Undefined Saprotroph	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	350	284	0	26	26	0	0	40	0	0	0	43	0	5	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lichen Parasite	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	10	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	17	0	0	2
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	5	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	35	0	0	0	0	0	0	18	27	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0
+Endophyte	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	28	22	0	0	21	15	20	0	18	17	13	16	34	47
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	123	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	0	0	0	0	0	0	37	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	87	0	112	0	53	0	0	61	4	197	0	27	5	2	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	134	0	6	0	31	0	0	0	0	101	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	2	0	0	5	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	5	0
+Undefined Saprotroph	0	0	0	122	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	2	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	41	0	0	0	0	0	0	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	90	85	53	57	42	45	89	44	53	50	26	58	49	83	56
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	6	0	0	0	0	0	0	0	4	0	0	3
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	39	0	0	0	0	0	0	19	0	12	0	6	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	6	0	0	3	0	0	7	0	19	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	4	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	13	0	0	0	0	0	2	0	14	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	85	45	65	398	9	0	0	40	0	61	148	258	0	0	77
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	210	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	62	18	0	15	5	0	0	11	0	0	10	14	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	0	0	0	0	11
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	37	71	0	0	0	0	0	0	0	0	0	0
+Lichen Parasite	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	13	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0
+Soil Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	298	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	55	29	8	40	9	4	21	40	0	62	7	22	21	3	10
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Soil Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	11	0	0	0	0	18	0	0	0	90	0	0	0
+Lichenized	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	84	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	111
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0
+Undefined Saprotroph	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	25	0	0	4	0	55	0	0	5	0	13	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0
+Lichenized	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	418	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	45	0	0	0	0	0	0	0	0	0	0	0	0	56	60	191	301	28	0	0	0	0	57	84	135	0	0	169
+Undefined Saprotroph	0	0	0	0	0	159	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	88	22	139	13	35	147	11	52	0	122	5	14	89	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	683	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	45	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Undefined Saprotroph	0	370	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	146	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	6	0	0	0	0	5	24	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	56	0	18	0	0	0	0	0	35	0	0	57
+Undefined Saprotroph	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	650	677	437	488	387	515	604	452	597	540	370	503	466	856	408
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+Fungal Parasite	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	31	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0	0
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	38
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	13	0	0	0	0	0	0	10	22	0	0	9
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0
+Endophyte	27	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	5	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	0	0	29	18	0	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	23	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	27	0	17	0	0	51	0	0	0	16	0	12	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	115	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lichenized	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	81	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	41
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	10	0	0	0	20	0	0	2	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	140	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	0	169	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	111	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Litter Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	142	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0
+Animal Pathogen	0	0	98	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	25	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	5	0	12	0	5	0	5	0	4	0	9	4	0	3
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	304	0	68	0	0	0	0	143	139	0	0	149
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	47	0	0	0	0	0	0	0	33	0	0	42
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	450	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0
+Lichenized	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0
+Undefined Saprotroph	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	69	0	0	0	0	0	0	0	0	88	49	41	0	165
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	2077	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	45	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	4	0	0	0	0	0	0	0	2	3	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	75	0	0	0
+Undefined Saprotroph	162	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	12	16	0	15
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	37	0	0	0	0	0	0	4	31	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	51	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	12	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	34	0	6	0	0	0	12	141	13	0	0	0	91	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	10	0	0	0	0	0	0	0	17	0	0	9
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	933	367	971	148	377	0	19	282	6	1221	42	187	39	13	13
+Undefined Saprotroph	0	0	0	0	0	0	0	0	46	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	8	0	0	0	0	0	60	0	0	0	0	0
+Ectomycorrhizal	10	0	0	0	0	5	8	0	0	12	0	0	0	0	4	179	75	174	198	0	30	32	81	0	186	60	148	39	22	112
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	14	0	14	5	10	0	8	22	11	0	15	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	2741	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	2	3	3	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	556	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	44	21	0	0	0	0	0	96	0	45	0	31	131	0	14
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	145	104	109	161	0	125	120	106	151	0	130	95	123	151	118
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	21	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	5	0	11	0	0	53
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	59	0	0	0	0	0	0	0	145	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	74	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	110	104	108	165	80	180	91	155	95	66	106	101	108	142	255
+Ectomycorrhizal	3	471	0	0	0	0	2	0	0	0	3	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	68	0	0	0	0	0	70	0	0	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	90	0	0	0	5	0	0	44	0	0	0	0	8
+Ectomycorrhizal	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	21	0	31	28	0	25	16	15	29	24	5	12	0	51	21
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	6	0	0	3
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	35	16	0	7	0	0	9	0	0	0	0	6	0	4
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	8	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	34	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	9	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	235	286	0	0	0	0	0	0	112	325	0	0	156
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	62	0	26	41	19	0	0	15	0	70	0	50	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0	6	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0
+Plant Pathogen	215	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	62	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	18	0	21	0	0	0	0	0	6	0	0	0
+Undefined Saprotroph	0	0	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	224	47	620	87	111	5	17	100	0	178	22	61	16	7	9
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	49	0	0	0	0	0	0	38	0	0	0	40
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	981	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	167	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25	0	0	0	0
+Undefined Saprotroph	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	5	0	0	5	0	0	9	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	99	55	0	11	0	0	0	0	0	6	0	4	0
+Undefined Saprotroph	0	0	0	0	0	0	98	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	236	0	0	0	0	0	402	152	487	119	201	6	33	163	0	581	28	120	490	6	79
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	92	0	0	0	0	0	0	64	86	0	0	6
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	252	0	0	2	0	0	0	0	3	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	77	44	127	17	0	0	9	0	0	176	13	32	0	0	5
+Dung Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0
+Lichen Parasite	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	82	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	45	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	17	0	9	29	48	35	24	162	0	17	0	37	32	15
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	81	0	9	0	0	0	0	56	0	0	0	7
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	49
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	40	0	0	0	5	0	0	2	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	10	0	0	0	0	0	0	0	0	0	0	0	2	5
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	11	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	29	0	19	30	18	0	24	0	34	0	0	0	250	42	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Litter Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	3	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0
+Animal Pathogen	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	395	0	0	0	0	0	0	163	408	0	0	35
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	12	45	9	18	0	0	5	28	0	9	0	49	9
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	13	0	0	0	8	6	10	0	0	7
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	243	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	5	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	240	166	692	264	64	0	0	131	6	179	141	151	117	0	307
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	8	7	8	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	295	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	3	10	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	10	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	163	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	69	67	188	19	0	0	0	55	0	38	10	183	8	41	17
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Ericoid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	5
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	207	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	3	0	0	5	7	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	12	0	0	0	0	0	0	0	0	0	11	0	0	0	0	42	84	34	0	22	70	33	72	35	28	0	44	24	76	46
+Undefined Saprotroph	68	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0
+Fungal Parasite	0	0	0	0	0	66	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	4	0	0	0	0	0	3	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	55	0	0	124	26	0	0	27	0	0	91	0	34	0	156
+Endophyte	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	0	78	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	3	15	0	0	0	6	4	0	4	3	4	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	12	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	192	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0	21	0	0	0	0	5	43	0	0	37
+Plant Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	493	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	77	64	0	0	0	33	0	85	0	0	0	0	125	0
+Wood Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0
+Animal Pathogen	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0
+Wood Saprotroph	0	0	0	0	0	32	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Plant Pathogen	0	0	0	0	0	130	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6
+Undefined Saprotroph	0	0	0	0	0	65	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0
+Undefined Saprotroph	0	0	0	11	0	6	10	0	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	4	5	4	4	0	0	0	0	6
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	45	0	19	0	0	0	0	0	0	0	0	0	0	0
+Orchid Mycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	9	0	0	6
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0
+Ectomycorrhizal	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Fungal Parasite	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0
+Litter Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Litter Saprotroph	0	0	0	0	0	0	0	0	0	216	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undefined Saprotroph	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0
