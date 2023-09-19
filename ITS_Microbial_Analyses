@@ -1,0 +1,354 @@
+######## Scripts for Pyrocosm Study - VanderRoest et al. - ITS Analyses ########
+
+## Written and compiled by Julie A. Fowler and Amelia R. Nelson
+
+#### Package Loading ####
+library(phyloseq) ## if needed to download, will have to get from Bioconductor 
+library(ggplot2)
+library(grid)
+library(plyr)
+library(vegan)
+library(Hmisc)
+library(reshape2)
+library(ggpubr)
+library(skimr)
+library(tidyverse)
+library(rstatix)
+library(RColorBrewer)
+library(ggrepel)
+library(stats)
+library(pairwiseAdonis)
+library(writexl)
+
+# library(devtools)
+# install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
+
+theme_set("classic")
+
+
+#### Set Working Directory ####
+## setwd()
+
+
+#### Import Files and Create Object ####
+
+otus<-read.delim("pyro-Jacob-featuretable-ITS.tsv",header=T,row.names=1, check.names=FALSE) ## load in the feature table - this is your 'ASV' table with counts across samples
+map_file<-read.delim("pyro-Jacob-map-file-ITS.txt",header = T,row.names=1,check.names=FALSE)
+
+all.equal(names(otus),row.names(map_file)) ## check to make sure row names and column names equal (aka the sample names), if this reads 'TRUE' you are good to move on!
+
+otumat<-as.matrix(otus)
+OTU = otu_table(otumat, taxa_are_rows = TRUE)
+head(OTU)
+taxa<-read.delim("pyro-Jacob-taxonomy-ITS.tsv",header=T,row.names=1,skipNul=T) ## this is just a list of the ASV ids and the corresponding taxa strings, reordered so that they are listed in the same order as the ASV table
+taxmat<-as.matrix(taxa)
+all.equal(row.names(taxmat),row.names(otumat)) ## check to make sure they are in the same order
+TAX = tax_table(taxmat)
+physeq<-phyloseq(OTU,TAX) ## make your phyloseq object, which is basically just a R object that has all of your data for the analyses stored into it!
+all.equal(row.names(map_file),sample_names(physeq)) ## LAST CHECK - is everything ordered all correctly?
+sampledata<-sample_data(map_file)
+mgd<-merge_phyloseq(physeq,sampledata) ## make the final phyloseq object
+
+
+
+###### Figure 2 ######
+
+#### Alpha Diversity Boxplots ####
+
+## Species Richness
+
+ggplot(map_file, aes(x = Days_Since_IgnitionEvent, y = Species_Richness)) + geom_boxplot(stat = "boxplot", aes(fill=as.factor(Days_Since_IgnitionEvent)), outlier.shape = NA) +
+  stat_compare_means(comparisons = my_comparisons_date, method = "wilcox.test", label="p.signif", show.legend = FALSE, 
+                     size = 6, hide.ns = TRUE, tip.length = 0.035, bracket.size = 0.5) +
+  facet_wrap(~Burn_Condition, ncol = 3) + theme(legend.position = "none") + geom_jitter(color = "black") +
+  theme(axis.title.x = element_text(vjust = -0.3)) +
+  theme(axis.title.y = element_text(vjust = 1.5)) +
+  ylab("Species Richness") + theme(strip.text.x = element_text(size = 12, color = "black", face = "bold")) +
+  theme_classic() +
+  theme(legend.position = "none")
+ 
+stat.test <- map_file %>% 
+  wilcox_test(Species_Richness ~ Burn_Condition) %>%
+  add_significance()
+stat.test
+
+map_file %>%
+  group_by(Days_Since_IgnitionEvent) %>%
+  wilcox_test(data =., Species_Richness ~ Burn_Condition) %>%
+  adjust_pvalue(method = "bonferroni") %>%
+  add_significance("p.adj")
+
+map_file %>%
+  group_by(Burn_Condition) %>%
+  wilcox_test(data =., Species_Richness ~ Days_Since_IgnitionEvent) %>%
+  adjust_pvalue(method = "bonferroni") %>%
+  add_significance("p.adj")
+
+
+#### FUNGuild Visualizations - Relative Abundance ####
+
+# Classic palette BuPu, with 4 colors
+coul <- brewer.pal(10, "Paired") 
+
+# Add more colors to this palette:
+coul <- colorRampPalette(coul)(15)
+pie(rep(1, length(coul)), col = coul , main="")
+
+PivotTable_FUNGuild<-read.delim("pyro-Jacob--featuretable-ITS-forFUNGuild-barchart-final-other.txt",header = T,check.names=FALSE)
+melted.data<-melt(PivotTable_FUNGuild,id.vars=c('Guild'))
+write.table(melted.data, file = "pyro_FUNGuild_pivot_ITS.txt", sep = "\t")
+melted.data <- read.delim("pyro-Jacob--featuretable-ITS-forFUNGuild-barchart-final-other.txt",header=T)
+
+melted.data <- melted.data %>% 
+  pivot_longer(2:11, names_to = "Condition", values_to = "value") %>% 
+  separate(Condition, into = c("Burn_Condition", "Days_Since_Burn_Event"), sep="_") 
+
+melted.data$Days <- factor(melted.data$Guild, 
+                            levels = c("Unknown",
+                                       "Lichenized",
+                                       "Fungal Parasite",
+                                       "Plant Pathogen",
+                                       "Undefined Saprotroph",
+                                       "Litter Saprotroph",
+                                       "Ectomycorrhizal",
+                                       "Wood Saprotroph",
+                                       "Endophyte",
+                                       "Ericoid Mycorrhizal",
+                                       "Soil Saprotroph",
+                                       "Other")) 
+
+melted.data$Days_Since_Burn_Event <- factor(melted.data$Days_Since_Burn_Event, 
+                            levels = c("0",
+                                       "3",
+                                       "7",
+                                       "14",
+                                       "28")) 
+
+ggplot(melted.data,aes(x=Days_Since_Burn_Event,y=value,fill=Guild)) +
+  geom_bar(stat='identity',position='stack') +
+  facet_wrap(~Burn_Condition) +
+  scale_x_discrete(guide = guide_axis(angle = 45)) +
+  theme_classic() +
+  scale_fill_manual(values = coul)
+
+
+
+  
+###### Figure S3 ######
+
+#### NMDS ####
+
+## Transform to relative abundance, subset to match chem samples, subset by transects, make metadata df's: 
+## Mention of relative abundance: https://rstudio-pubs-static.s3.amazonaws.com/496936_2cda5f07e6044d7e9d521893e484a558.html 
+mgd_ge5K<-mgd
+mgd_ge5K_relabund<-transform_sample_counts(mgd_ge5K,function(x)x/sum(x))
+mgd_ge5K_relabund.bray<-distance(mgd_ge5K_relabund,"bray") ## calculate distance object using Bray-Curtis dissimilarity
+mgd_ge5K_relabund.bray.nmds<-ordinate(mgd_ge5K_relabund,"NMDS",mgd_ge5K_relabund.bray, trymax = 10000)
+mgd_ge5K_relabund.bray
+
+mgd_ge5K_relabund.bray.nmds$stress ## Use this line of code if you want to get out stress value
+
+mgd_relabund_map=as(sample_data(mgd_ge5K_relabund),"data.frame") ## Create plain data frame 'map' of sample metadata
+sample_tab<-mgd_relabund_map
+# sample_tab$NMDS1<-scores(mgd_ge5K_relabund.bray.nmds)[,1] ## add your NMDS values to the sample table! The 'scores' are the coordinates for your samples in NMDS space. Here you are adding the coordinate for NMDS1, so the x coordinate for your sample
+# sample_tab$NMDS2<-scores(mgd_ge5K_relabund.bray.nmds)[,2] ## Here you are adding the coordinate for NMDS2, so the y coordinate for your sample
+
+## Work around because above code wouldn't work for some reason - May 5th, 2022
+sample_tab$NMDS1<-mgd_ge5K_relabund.bray.nmds$points[,1]
+sample_tab$NMDS2<-mgd_ge5K_relabund.bray.nmds$points[,2]
+
+plot(mgd_ge5K_relabund.bray.nmds) 
+
+## Plot using ggplot
+NMDS <- ggplot(sample_tab)+
+  geom_point(aes(x=NMDS1, y=NMDS2, color=Burn_Condition, shape = Days_Since_IgnitionEvent), size=4) +
+  theme(text=element_text(size = 20)) +
+  stat_ellipse(aes(x=NMDS1, y=NMDS2, group = Burn_Condition, color=Burn_Condition),linetype = 2) +
+  theme_classic() +
+  scale_color_manual(values=c("red", "dodgerblue"))
+
+NMDS
+
+
+#### NMDS with Envfit - Chemistry Variables #### 
+
+ord <- mgd_ge5K_relabund.bray.nmds
+fit <- envfit(ord, map_file, perm = 10000, na.rm=TRUE)
+fit
+
+
+## P-value adjustment - from https://www.davidzeleny.net/anadat-r/doku.php/en:customized_functions:p.adjust.envfit 
+p.adjust.envfit <- function (x, method = 'bonferroni', n)
+{
+  x.new <- x
+  if (!is.null (x$vectors)) pval.vectors <- x$vectors$pvals else pval.vectors <- NULL
+  if (!is.null (x$factors)) pval.factors <- x$factors$pvals else pval.factors <- NULL
+  if (missing (n)) n <- length (pval.vectors) + length (pval.factors)
+  if (!is.null (x$vectors)) x.new$vectors$pvals <- p.adjust (x$vectors$pvals, method = method, n = n)
+  if (!is.null (x$factors)) x.new$factors$pvals <- p.adjust (x$factors$pvals, method = method, n = n)
+  cat ('Adjustment of significance by', method, 'method')
+  return (x.new)
+}
+
+fit_adjust <- p.adjust.envfit(fit)
+fit_adjust
+
+fit1 <- as.data.frame(scores(fit_adjust, display = "vectors"))
+fit1 <- cbind(fit1, env.variables = rownames(fit1)) ## and then gives them their names
+fit1 <- cbind(fit1, pval = fit_adjust$vectors$pvals) ## add pvalues to dataframe
+env.scores.fit <- cbind(fit1, r = fit_adjust$vectors$r)
+sig.env.scrs <- subset(env.scores.fit, pval<=0.05) ## add pvalues to dataframe
+#sig.env.scrs <- subset(env.scores.dune, r>=0.85) ## subset data to show variables significant at 0.05
+sig.env.scrs
+
+## Plot with ggplot
+NMDS_Envfit_Chemistry <- NMDS +
+  geom_segment(data=sig.env.scrs,aes(x=0,xend=NMDS1,y=0,yend=NMDS2),
+               arrow=arrow(length=unit(0.5,'cm')),color='bisque4',inherit.aes=FALSE) + 
+  coord_fixed() +
+  geom_text_repel(data = sig.env.scrs, aes(x = NMDS1, y = NMDS2, label = env.variables), 
+                  colour = "bisque4", fontface = "bold") +
+  ylim(-0.8, 0.8) + xlim(-1.0,1.0) + 
+  theme(legend.position = "none") +
+  scale_color_manual(values=c("red", "dodgerblue"))
+
+NMDS_Envfit_Chemistry
+
+
+#### NMDS w/ Envfit - FUNGuild ####
+
+## First step - OTU table with a column added for FUNGuild guild to replace the OTU code 
+envfit_FUNGuild <- read.delim("pyro-Jacob-featuretable-ITS-forFUNGuild.txt",header = T)
+
+## Collapse all rows of the same guild into one for each guild
+envfit_FUNGuild_agg <- aggregate(. ~  Guild, data = envfit_FUNGuild, sum)
+
+## Transpose the table so that each column is a guild
+envfit_FUNGuild_pivot <- t(envfit_FUNGuild_agg)
+
+## Export the dataframe to fix some things in excel- should find a better way
+## Fixing ID labels, first column here is assumed to be row labels, making first row into headers,
+## Add metadata columns
+## Make each row sum to one 
+## Got rid of all unknown
+
+## Export
+write.table(envfit_FUNGuild_pivot, file = "envfit_FUNGuild_pivot_ITS.txt", sep = "\t")
+
+## Import
+
+envfit_FUNGuild_edit <- read.delim("ITS_envfit_FUNGuild_edited.txt",header=T)
+
+
+## Do the Envfit stuff 
+
+options(ggrepel.max.overlaps = Inf)
+
+## FUNGuild EDIT THE NUMBERS AFTER envfit_class_edit
+ord_FUNGuild <- mgd_ge5K_relabund.bray.nmds
+fit_FUNGuild <- envfit(ord_FUNGuild, envfit_FUNGuild_edit, perm = 10000, na.rm=TRUE)
+fit_FUNGuild
+
+p.adjust.envfit <- function (x, method = 'bonferroni', n)
+{
+  x.new <- x
+  if (!is.null (x$vectors)) pval.vectors <- x$vectors$pvals else pval.vectors <- NULL
+  if (!is.null (x$factors)) pval.factors <- x$factors$pvals else pval.factors <- NULL
+  if (missing (n)) n <- length (pval.vectors) + length (pval.factors)
+  if (!is.null (x$vectors)) x.new$vectors$pvals <- p.adjust (x$vectors$pvals, method = method, n = n)
+  if (!is.null (x$factors)) x.new$factors$pvals <- p.adjust (x$factors$pvals, method = method, n = n)
+  cat ('Adjustment of significance by', method, 'method')
+  return (x.new)
+}
+
+fit_adjust <- p.adjust.envfit(fit_FUNGuild)
+fit_adjust
+
+fit1 <- as.data.frame(scores(fit_adjust, display = "vectors"))
+fit1 <- cbind(fit1, env.variables = rownames(fit1)) #and then gives them their names
+fit1 <- cbind(fit1, pval = fit_adjust$vectors$pvals) # add pvalues to dataframe
+env.scores.fit <- cbind(fit1, r = fit_adjust$vectors$r)
+sig.env.scrs <- subset(env.scores.fit, pval<=0.05)# add pvalues to dataframe
+#sig.env.scrs <- subset(env.scores.dune, r>=0.85) #subset data to show variables significant at 0.05
+
+
+## Plot 
+NMDS_Envfit_FUNGuild <- NMDS +
+  geom_segment(data=sig.env.scrs,aes(x=0,xend=NMDS1,y=0,yend=NMDS2),
+               arrow=arrow(length=unit(0.5,'cm')),color='bisque4',inherit.aes=FALSE) + 
+  coord_fixed() +
+  geom_text_repel(data = sig.env.scrs, aes(x = NMDS1, y = NMDS2, label = env.variables), 
+                  colour = "bisque4", fontface = "bold") +
+  theme_classic() +
+  scale_color_manual(values=c("red", "dodgerblue")) +
+  ylim(-0.8, 0.8) + xlim(-1.0,1.0) + 
+  theme(legend.position = "none")
+
+NMDS_Envfit_FUNGuild
+
+
+#### PERMANOVA ####
+
+## Remember to subset data to answer questions you're looking at, if needed
+
+## Using adonis2 as adonis is deprecated and the use of by=margin allows for order not to matter
+adonis2(mgd_ge5K_relabund.bray ~ Burn_Condition, data = sample_tab, permutations = 999, method = "bray", na.action = na.omit)
+adonis2(mgd_ge5K_relabund.bray ~ Days_Since_IgnitionEvent, data = sample_tab, permutations = 999, method = "bray", na.action = na.omit)
+adonis2(mgd_ge5K_relabund.bray ~ Burn_Condition*Days_Since_IgnitionEvent, data = sample_tab, permutations = 999, method = "bray", na.action = na.omit)
+adonis2(mgd_ge5K_relabund.bray ~ Burn_Condition+Days_Since_IgnitionEvent, data = sample_tab, permutations = 999, method = "bray", na.action = na.omit)
+
+## Conduct p-value adjustments as needed
+## P-value adjustments:
+
+p = c(0.001, 0.001, 0.001)
+p.adjusted = p.adjust(p, method = "BH")
+p.adjusted
+
+## Post hoc test to tell which pairs are sig different
+## New method that uses adonis2 (not adonis)
+
+pairwise.adonis2(mgd_ge5K_relabund.bray ~ Burn_Condition, data = sample_tab, sim.method = "bray", p.adjust.m = "BH", perm = 999)
+pairwise.adonis2(mgd_ge5K_relabund.bray ~ Days_Since_IgnitionEvent, data = sample_tab, sim.method = "bray", p.adjust.m = "BH", perm = 999)
+pairwise.adonis2(mgd_ge5K_relabund.bray ~ Burn_Condition*Days_Since_IgnitionEvent, data = sample_tab, sim.method = "bray", p.adjust.m = "BH", perm = 999)
+
+## P-value adjustments:
+p = c(, , , , , , , , , ,
+      , )
+p.adjusted = p.adjust(p, method = "BH")
+p.adjusted
+
+
+
+
+###### Figure S4 ######
+
+#### Relative Abundance Barplots - Stacked Barcharts #### 
+
+## Phylum
+
+## Averaging relative abundance for each phyla between the three reps for each treatment type
+## Excluding those phyla that represent less than 0.5% or 0.005 of all sequences in the total dataset
+
+PivotTable_Phylum<-read.delim("ITS_Phylum_StackBarchart_0.005_Wide.txt",header = T,check.names=FALSE)
+PivotTable_Phylum_Long<-pivot_longer(data = PivotTable_Phylum, cols = 3:16, names_to = "Phylum", values_to = "value")
+
+# Classic palette BuPu, with 4 colors
+coul <- brewer.pal(12, "Paired") 
+
+# Add more colors to this palette :
+coul <- colorRampPalette(coul)(14)
+pie(rep(1, length(coul)), col = coul , main="")
+
+PivotTable_Phylum_Long$Days_Since_Burn <- factor(PivotTable_Phylum_Long$Days_Since_Burn, levels = c("0Days", "3Days", "7Days", "14Days", "28Days"))
+PivotTable_Phylum_Long$Burn_Condition <- factor(PivotTable_Phylum_Long$Burn_Condition, levels = c("Unburned", "Burned"))
+
+## Plot with ggplot
+ggplot(PivotTable_Phylum_Long,aes(x=Days_Since_Burn,y=value,fill=Phylum)) +
+  facet_wrap(~Burn_Condition, ncol=2) +
+  geom_bar(stat='identity',position='stack') +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme_classic() +
+  scale_fill_manual(values = coul)
+
+
+
