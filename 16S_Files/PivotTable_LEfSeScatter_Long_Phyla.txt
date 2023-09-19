@@ -1,0 +1,26 @@
+Burn_Condition	Days_Since_Burn	Genus	Phyla	value
+Burned	0	Corynebacterium	Bacteria; Actinobacteriota	0.02572869
+Burned	0	Geobacillus	Bacteria; Firmicutes	0.024743582
+Burned	0	Kocuria	Bacteria; Actinobacteriota	0.00115895
+Burned	0	Nitrososphaeraceae	Archaea; Crenarchaeota	0
+Burned	0	Staphylococcus	Bacteria; Firmicutes	0.00834444
+Burned	3	Corynebacterium	Bacteria; Actinobacteriota	0.063667159
+Burned	3	Geobacillus	Bacteria; Firmicutes	0.013984192
+Burned	3	Kocuria	Bacteria; Actinobacteriota	0.018066533
+Burned	3	Nitrososphaeraceae	Archaea; Crenarchaeota	0.024407192
+Burned	3	Staphylococcus	Bacteria; Firmicutes	0.003474333
+Burned	7	Corynebacterium	Bacteria; Actinobacteriota	0.065438049
+Burned	7	Geobacillus	Bacteria; Firmicutes	0.011908137
+Burned	7	Kocuria	Bacteria; Actinobacteriota	0.003572441
+Burned	7	Nitrososphaeraceae	Archaea; Crenarchaeota	0.016501276
+Burned	7	Staphylococcus	Bacteria; Firmicutes	0.022341934
+Burned	14	Corynebacterium	Bacteria; Actinobacteriota	0.007896335
+Burned	14	Geobacillus	Bacteria; Firmicutes	0.028480799
+Burned	14	Kocuria	Bacteria; Actinobacteriota	0.011540798
+Burned	14	Nitrososphaeraceae	Archaea; Crenarchaeota	0.016400081
+Burned	14	Staphylococcus	Bacteria; Firmicutes	0
+Burned	28	Corynebacterium	Bacteria; Actinobacteriota	0.006542871
+Burned	28	Geobacillus	Bacteria; Firmicutes	0.005358923
+Burned	28	Kocuria	Bacteria; Actinobacteriota	0.00081007
+Burned	28	Nitrososphaeraceae	Archaea; Crenarchaeota	0.007290628
+Burned	28	Staphylococcus	Bacteria; Firmicutes	0.000498504
