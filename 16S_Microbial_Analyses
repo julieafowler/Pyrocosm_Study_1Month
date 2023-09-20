@@ -79,8 +79,10 @@ hist(alpha[,4], main="Richness", xlab="", breaks=15)
 map_file$Shannon <- alpha$Shannon
 map_file$Species_Richness <- alpha$Species_Richness
 
+
 ## Species Richness
 
+## Create species richness boxplot in ggplot and check tests of significance
 ggplot(map_file, aes(x = Days_Since_IgnitionEvent, y = Species_Richness)) + geom_boxplot(stat = "boxplot", aes(fill=as.factor(Days_Since_IgnitionEvent)), outlier.shape = NA) +
   stat_compare_means(comparisons = my_comparisons_date, method = "wilcox.test", label="p.signif", show.legend = FALSE, 
                      size = 6, hide.ns = TRUE, tip.length = 0.035, bracket.size = 0.5) +
@@ -111,6 +113,8 @@ map_file %>%
 
 #### Connected Scatterplot of top LEfSe Burned Genera ####
 
+## Creating scatterplot of the top 5 genera pulled out by the combined LEfSe/LDA analysis (discriminant for burned)
+## and their change in relative abundance across time
 PivotTable_LEfSeScatter<-read.delim("16S_ScatterplotConnected_LEfSe.txt",header = T,check.names=FALSE)
 PivotTable_LEfSeScatter_Long<-pivot_longer(data = PivotTable_LEfSeScatter, 
                                      cols = starts_with("Genera_"),
@@ -118,11 +122,10 @@ PivotTable_LEfSeScatter_Long<-pivot_longer(data = PivotTable_LEfSeScatter,
                                      values_to = "value")
 
 write_xlsx(PivotTable_LEfSeScatter_Long,"PivotTable_LEfSeScatter_Long.xlsx")
-
 PivotTable_LEfSeScatter_Long$value <- as.numeric(PivotTable_LEfSeScatter_Long$value)
-
 PivotTable_LEfSeScatter_Long<-read.delim("PivotTable_LEfSeScatter_Long_Phyla.txt",header = T,check.names=FALSE)
 
+## Make the scatterplot in ggplot 
 ggplot(PivotTable_LEfSeScatter_Long,aes(x=Days_Since_Burn,y=value,color=Genus)) +
   ##facet_wrap(~Days_Since_Burn, ncol=2) +
   geom_point(size = 3) + 
@@ -138,6 +141,8 @@ ggplot(PivotTable_LEfSeScatter_Long,aes(x=Days_Since_Burn,y=value,color=Genus)) 
 
 #### NMDS ####
 
+## Utilizing the phyloseq item we created at the beginning of this script 
+
 ## Transform to relative abundance, subset to match chem samples, subset by transects, make metadata df's: 
 ## Mention of relative abundance: https://rstudio-pubs-static.s3.amazonaws.com/496936_2cda5f07e6044d7e9d521893e484a558.html 
 mgd_ge5K<-mgd
@@ -150,13 +155,10 @@ mgd_ge5K_relabund.bray.nmds$stress ## Use this line of code if you want to get o
 
 mgd_relabund_map=as(sample_data(mgd_ge5K_relabund),"data.frame") ## Create plain data frame 'map' of sample metadata
 sample_tab<-mgd_relabund_map
-# sample_tab$NMDS1<-scores(mgd_ge5K_relabund.bray.nmds)[,1] ## add your NMDS values to the sample table! The 'scores' are the coordinates for your samples in NMDS space. Here you are adding the coordinate for NMDS1, so the x coordinate for your sample
-# sample_tab$NMDS2<-scores(mgd_ge5K_relabund.bray.nmds)[,2] ## Here you are adding the coordinate for NMDS2, so the y coordinate for your sample
-
-## Work around because above code wouldn't work for some reason - May 5th, 2022
 sample_tab$NMDS1<-mgd_ge5K_relabund.bray.nmds$points[,1]
-sample_tab$NMDS2<-mgd_ge5K_relabund.bray.nmds$points[,2]
+sample_tab$NMDS2<-mgd_ge5K_relabund.bray.nmds$points[,2] 
 
+## Plot using base R
 plot(mgd_ge5K_relabund.bray.nmds) 
 
 ## Plot using ggplot
@@ -175,7 +177,6 @@ NMDS
 ord <- mgd_ge5K_relabund.bray.nmds
 fit <- envfit(ord, map_file, perm = 10000, na.rm=TRUE)
 fit
-
 
 ## P-value adjustment - from https://www.davidzeleny.net/anadat-r/doku.php/en:customized_functions:p.adjust.envfit 
 p.adjust.envfit <- function (x, method = 'bonferroni', n)
@@ -250,9 +251,7 @@ p.adjusted
 
 ###### Figure S4 ######
 
-#### Relative Abundance Barplots - Stacked Barcharts #### 
-
-## Phylum
+#### Relative Abundance Barplots - Stacked Barcharts - Phylum #### 
 
 ## Averaging relative abundance for each phyla between the three reps for each treatment type
 ## Excluding those phyla that represent less than 0.5% or 0.005 of all sequences in the total dataset
