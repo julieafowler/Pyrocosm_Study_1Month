@@ -32,6 +32,8 @@ theme_set("classic")
 
 #### Import Files and Create Object ####
 
+## Creation of phyloseq object for later use
+
 otus<-read.delim("pyro-Jacob-featuretable-ITS.tsv",header=T,row.names=1, check.names=FALSE) ## load in the feature table - this is your 'ASV' table with counts across samples
 map_file<-read.delim("pyro-Jacob-map-file-ITS.txt",header = T,row.names=1,check.names=FALSE)
 
@@ -81,6 +83,7 @@ map_file$Species_Richness <- alpha$Species_Richness
 
 ## Species Richness
 
+## Create species richness boxplot in ggplot and check tests of significance
 ggplot(map_file, aes(x = Days_Since_IgnitionEvent, y = Species_Richness)) + geom_boxplot(stat = "boxplot", aes(fill=as.factor(Days_Since_IgnitionEvent)), outlier.shape = NA) +
   stat_compare_means(comparisons = my_comparisons_date, method = "wilcox.test", label="p.signif", show.legend = FALSE, 
                      size = 6, hide.ns = TRUE, tip.length = 0.035, bracket.size = 0.5) +
@@ -109,7 +112,7 @@ map_file %>%
   add_significance("p.adj")
 
 
-#### FUNGuild Visualizations - Relative Abundance ####
+#### FUNGuild Visualizations - Relative Abundance Barchart ####
 
 # Classic palette BuPu, with 4 colors
 coul <- brewer.pal(10, "Paired") 
@@ -174,13 +177,10 @@ mgd_ge5K_relabund.bray.nmds$stress ## Use this line of code if you want to get o
 
 mgd_relabund_map=as(sample_data(mgd_ge5K_relabund),"data.frame") ## Create plain data frame 'map' of sample metadata
 sample_tab<-mgd_relabund_map
-# sample_tab$NMDS1<-scores(mgd_ge5K_relabund.bray.nmds)[,1] ## add your NMDS values to the sample table! The 'scores' are the coordinates for your samples in NMDS space. Here you are adding the coordinate for NMDS1, so the x coordinate for your sample
-# sample_tab$NMDS2<-scores(mgd_ge5K_relabund.bray.nmds)[,2] ## Here you are adding the coordinate for NMDS2, so the y coordinate for your sample
-
-## Work around because above code wouldn't work for some reason - May 5th, 2022
 sample_tab$NMDS1<-mgd_ge5K_relabund.bray.nmds$points[,1]
 sample_tab$NMDS2<-mgd_ge5K_relabund.bray.nmds$points[,2]
 
+## Plot using base R
 plot(mgd_ge5K_relabund.bray.nmds) 
 
 ## Plot using ggplot
@@ -199,7 +199,6 @@ NMDS
 ord <- mgd_ge5K_relabund.bray.nmds
 fit <- envfit(ord, map_file, perm = 10000, na.rm=TRUE)
 fit
-
 
 ## P-value adjustment - from https://www.davidzeleny.net/anadat-r/doku.php/en:customized_functions:p.adjust.envfit 
 p.adjust.envfit <- function (x, method = 'bonferroni', n)
@@ -250,25 +249,18 @@ envfit_FUNGuild_agg <- aggregate(. ~  Guild, data = envfit_FUNGuild, sum)
 ## Transpose the table so that each column is a guild
 envfit_FUNGuild_pivot <- t(envfit_FUNGuild_agg)
 
-## Export the dataframe to fix some things in excel- should find a better way
+## Export the dataframe to fix some things in excel
 ## Fixing ID labels, first column here is assumed to be row labels, making first row into headers,
 ## Add metadata columns
 ## Make each row sum to one 
-## Got rid of all unknown
 
 ## Export
 write.table(envfit_FUNGuild_pivot, file = "envfit_FUNGuild_pivot_ITS.txt", sep = "\t")
 
 ## Import
-
 envfit_FUNGuild_edit <- read.delim("ITS_envfit_FUNGuild_edited.txt",header=T)
 
-
-## Do the Envfit stuff 
-
 options(ggrepel.max.overlaps = Inf)
-
-## FUNGuild EDIT THE NUMBERS AFTER envfit_class_edit
 ord_FUNGuild <- mgd_ge5K_relabund.bray.nmds
 fit_FUNGuild <- envfit(ord_FUNGuild, envfit_FUNGuild_edit, perm = 10000, na.rm=TRUE)
 fit_FUNGuild
@@ -292,7 +284,7 @@ fit1 <- as.data.frame(scores(fit_adjust, display = "vectors"))
 fit1 <- cbind(fit1, env.variables = rownames(fit1)) #and then gives them their names
 fit1 <- cbind(fit1, pval = fit_adjust$vectors$pvals) # add pvalues to dataframe
 env.scores.fit <- cbind(fit1, r = fit_adjust$vectors$r)
-sig.env.scrs <- subset(env.scores.fit, pval<=0.05)# add pvalues to dataframe
+sig.env.scrs <- subset(env.scores.fit, pval<=0.05) #add pvalues to dataframe
 #sig.env.scrs <- subset(env.scores.dune, r>=0.85) #subset data to show variables significant at 0.05
 
 
@@ -346,9 +338,7 @@ p.adjusted
 
 ###### Figure S4 ######
 
-#### Relative Abundance Barplots - Stacked Barcharts #### 
-
-## Phylum
+#### Relative Abundance Barplots - Stacked Barcharts - Phyla #### 
 
 ## Averaging relative abundance for each phyla between the three reps for each treatment type
 ## Excluding those phyla that represent less than 0.5% or 0.005 of all sequences in the total dataset
