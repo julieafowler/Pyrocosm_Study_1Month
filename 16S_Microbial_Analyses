@@ -32,6 +32,8 @@ theme_set("classic")
 
 #### Import Files and Create Object ####
 
+## Creation of phyloseq object for later use
+
 otus<-read.delim("pyro-Jacob-feature-table-16S.tsv",header=T,row.names=1, check.names=FALSE) ## load in the feature table - this is your 'ASV' table with counts across samples
 map_file<-read.delim("pyro-Jacob-map-file-16S.txt",header = T,row.names=1,check.names=FALSE)
 
@@ -251,7 +253,7 @@ p.adjusted
 
 ###### Figure S4 ######
 
-#### Relative Abundance Barplots - Stacked Barcharts - Phylum #### 
+#### Relative Abundance Barplots - Stacked Barcharts - Phyla #### 
 
 ## Averaging relative abundance for each phyla between the three reps for each treatment type
 ## Excluding those phyla that represent less than 0.5% or 0.005 of all sequences in the total dataset
